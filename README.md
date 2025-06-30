@@ -1,12 +1,65 @@
-# React + Vite
+# 🚀 Ashiful Islam - Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio website!  
+This project showcases who I am as a frontend web developer — my skills, projects, experience, and more — all in one clean, responsive interface.
 
-Currently, two official plugins are available:
+## 🔗 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Portfolio Live](https://ashifulislam-portfolio-2002.web.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- 🧭 Responsive Navigation Bar
+- 👤 Developer Introduction with Profile Image
+- 📄 Downloadable Resume Button
+- 🌐 Social Media Links (GitHub, LinkedIn, etc.)
+- 💬 "About Me" Section with personal background
+- 🛠️ Skills Section (Frontend, Backend, Tools)
+- 🎓 Education Section
+- 💼 Experience Section (if any)
+- 📁 Projects Section with detailed view pages
+- ✉️ Contact Section (email, phone, WhatsApp)
+- 🦶 Clean Footer
+- 📱 Fully responsive on mobile, tablet, and desktop
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, DaisyUI
+- **Hosting:** Firebase Hosting
+
+---
+
+## 🧩 Project Structure
+
+/
+├── public/
+├── src/
+│ ├── components/ # Reusable components (Navbar, Footer, etc.)
+│ ├── pages/ # Pages like Home, About, Skills, Projects
+│ ├── assets/ # Images and icons
+│ ├── App.jsx
+│ └── main.jsx
+├── .gitignore
+├── firebase.json
+├── README.md
+└── package.json
+
+
+## 🖼️ Screenshots
+
+> (Optional) Add a few images of your live site here using markdown:
+> ![Screenshot](https://link-to-your-screenshot.png)
+
+---
+
+## 📥 Getting Started Locally
+
+```bash
+git clone 
+cd  project
+npm install
+npm run dev
