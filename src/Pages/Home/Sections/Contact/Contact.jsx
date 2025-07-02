@@ -1,7 +1,7 @@
 // src/pages/Contact.jsx
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-4 bg-white">
+    <section id="contact" className="py-16 px-4 bg-white dark:bg-gray-800">
       <div className="container mx-auto max-w-3xl text-center flex flex-col xl:flex-row justify-between">
         <div className="">
           <h2 className="text-3xl font-bold mb-8">Contact Me</h2>

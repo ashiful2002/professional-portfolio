@@ -5,18 +5,20 @@ import resume from "../../../../assets/Ashiful_Islam_Mukto_Resume.pdf";
 const Hero = () => {
   return (
     <div className="" id="home">
-      <div className="hero py-16 bg-gray-100 rounded-2xl my-2 shadow-2xl">
+      <div className="hero dark:bg-gray-800 py-16 bg-gray-100 rounded-2xl my-2 shadow-2xl">
         <div className="hero-content flex-col md:flex-row">
           <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
-  <img
-    src="https://i.ibb.co/d06bgKdr/Chat-GPT-Image-Jun-30-2025-01-07-46-PM.png"
-    className="w-full h-auto rounded-lg shadow-2xl"
-    alt="Profile"
-  />
-</div>
+            <img
+              src="https://i.ibb.co/d06bgKdr/Chat-GPT-Image-Jun-30-2025-01-07-46-PM.png"
+              className="w-full h-auto rounded-lg shadow-2xl"
+              alt="Profile"
+            />
+          </div>
           <div className="flex-1">
-            <h1 className="text-5xl font-bold">Ashiful Aslam Mukto</h1>
-            <h2 className="text-3xl font-semibold">
+            <h1 className="text-5xl font-bold">
+              Ashiful Aslam Mukto
+            </h1>
+            <h2 className="text-3xl font-semibold ">
               Web Developer (Front End)
             </h2>
             <a href={resume} download className="btn btn- ">

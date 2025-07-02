@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="bg-white rounded-xl shadow-md overflow-hidden">
+    <div className="bg-white dark:bg-gray-600 rounded-xl shadow-md overflow-hidden">
       <img
         src={project.image}
         alt={project.name}
